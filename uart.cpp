@@ -4,25 +4,23 @@
 void UART_RX::put_samples(const unsigned int *buffer, unsigned int n)
 {
     // iniciar fila
-    Queue fila = new Queue();
+    Queue fila;
     // seu código aqui
     for(int i = 0; i < n; i++)
     {
         
-            //start bit
-            if (buffer[i] == 0)
+            
+            if (buffer[i] == 0) //start bit
             {
                 
                 for(int j=i; j < i+9; j++)
                 {
-                    fila.enQueue(buffer[j]);
-                    
-                    
+                    fila.enQueue(buffer[j]); 
                 }
                 // pegar os bytes e dar dequeue
                    
                 // verificar se os últimos dois são 0 e 1
-                if ()
+                //if ()
             }
             
     }
