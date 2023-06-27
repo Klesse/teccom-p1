@@ -1,7 +1,9 @@
-// Circular Queue implementation in C++
+#ifndef CIRQUEUE_HPP
+#define CIRQUEUE_HPP
 
 #include <iostream>
-#define SIZE 5 /* Size of Circular Queue */
+
+#define SIZE 8 /* Size of Circular Queue */
 
 using namespace std;
 
@@ -16,7 +18,6 @@ class Queue {
         void enQueue(int element);
         int deQueue();
         void display();
-
-
-
   };
+
+#endif

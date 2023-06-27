@@ -1,0 +1,5 @@
+if(EXISTS "/home/pedro/teccom-p1/build/grader/test[1]_tests.cmake")
+  include("/home/pedro/teccom-p1/build/grader/test[1]_tests.cmake")
+else()
+  add_test(test_NOT_BUILT test_NOT_BUILT)
+endif()

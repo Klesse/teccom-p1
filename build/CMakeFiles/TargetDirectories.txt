@@ -1,0 +1,6 @@
+/home/pedro/teccom-p1/build/CMakeFiles/Modem.dir
+/home/pedro/teccom-p1/build/CMakeFiles/edit_cache.dir
+/home/pedro/teccom-p1/build/CMakeFiles/rebuild_cache.dir
+/home/pedro/teccom-p1/build/grader/CMakeFiles/test.dir
+/home/pedro/teccom-p1/build/grader/CMakeFiles/edit_cache.dir
+/home/pedro/teccom-p1/build/grader/CMakeFiles/rebuild_cache.dir

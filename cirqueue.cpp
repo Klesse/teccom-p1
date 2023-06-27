@@ -4,6 +4,7 @@ Queue::Queue() {
     front = -1;
     rear = -1;
   }
+
   // Check if the queue is full
   bool Queue::isFull() {
     if (front == 0 && rear == SIZE - 1) {
@@ -14,6 +15,7 @@ Queue::Queue() {
     }
     return false;
   }
+
   // Check if the queue is empty
   bool Queue::isEmpty() {
     if (front == -1)
@@ -21,6 +23,7 @@ Queue::Queue() {
     else
       return false;
   }
+
   // Adding an element
   void Queue::enQueue(int element) {
     if (isFull()) {
@@ -33,6 +36,7 @@ Queue::Queue() {
          << "Inserted " << element << endl;
     }
   }
+  
   // Removing an element
   int Queue::deQueue() {
     int element;
